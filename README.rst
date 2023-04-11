@@ -11,7 +11,7 @@ The conditional Generative PU framework (CGenPU) is a novel approach to learning
 
    The scheme of the CGenPU learning framework, with a class-conditional generator and an auxiliary classifier (seen in dotted boxes on the right-hand side). Solid arrows indicate the flow of data within the framework, while the red dashed lines refer to the flow of labels. The framework's output is i) a generator capable of generating artificial positive and negative data, and ii) a binary classifier capable of classifying in positive or negative class.
    
-The article is available under open access at the following [URL](https://www.sciencedirect.com/science/article/pii/S0957417423005481).
+The article is available under open access at the following `URL <https://www.sciencedirect.com/science/article/pii/S0957417423005481>`_.
 
 Results CIFAR-10
 --------
