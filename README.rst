@@ -1,4 +1,4 @@
-CGenPU
+CGenPU - Conditional Generative PU framework
 ========
 
 |License Badge|
@@ -10,6 +10,8 @@ The conditional Generative PU framework (CGenPU) is a novel approach to learning
    :align: center
 
    The scheme of the CGenPU learning framework, with a class-conditional generator and an auxiliary classifier (seen in dotted boxes on the right-hand side). Solid arrows indicate the flow of data within the framework, while the red dashed lines refer to the flow of labels. The framework's output is i) a generator capable of generating artificial positive and negative data, and ii) a binary classifier capable of classifying in positive or negative class.
+   
+The article is available under open access at the following [URL](https://www.sciencedirect.com/science/article/pii/S0957417423005481).
 
 Results CIFAR-10
 --------
@@ -90,14 +92,23 @@ If you use CGenPU for your work, we would appreciate it if you would cite the pa
 
 .. code::
 
-    @article {Papič...}
+   @article{PAPIC2023120046,
+      title = {Conditional generative positive and unlabeled learning},
+      journal = {Expert Systems with Applications},
+      pages = {120046},
+      year = {2023},
+      issn = {0957-4174},
+      doi = {https://doi.org/10.1016/j.eswa.2023.120046},
+      url = {https://www.sciencedirect.com/science/article/pii/S0957417423005481},
+      author = {Aleš Papič and Igor Kononenko and Zoran Bosnić},
+   }
 
 References
 --------
 
 .. [1] Augustus Odena, C. Olah, and J. Shlens, "Conditional image synthesis with auxiliary classifier gans," in ICML, 2017, pp. 2642–2651.
-.. [2] Aleš Papič, I. Kononenko, and Z. Bosnić, "Conditional Generative Positive and Unlabeled Learning."
+.. [2] Papič, Aleš, Igor Kononenko, and Zoran Bosnić. "Conditional generative positive and unlabeled learning." Expert Systems with Applications (2023): 120046.
 .. [3] Alex Krizhevsky, "Learning multiple layers of features from tiny images," University of Toronto, Tech. Rep., 2009.
 
-.. |License Badge| image:: https://img.shields.io/badge/License-BSD%203--Clause-blue.svg
-   :target: https://opensource.org/licenses/BSD-3-Clause
+.. |License Badge| image:: https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg
+   :target: https://creativecommons.org/licenses/by/4.0/
